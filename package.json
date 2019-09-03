@@ -1,0 +1,31 @@
+{
+  "name": "notichat-server",
+  "version": "1.0.0",
+  "description": "server for notichat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symetryn/notichat-server.git"
+  },
+  "keywords": [
+    "notification-chat"
+  ],
+  "author": "rojan maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symetryn/notichat-server/issues"
+  },
+  "homepage": "https://github.com/symetryn/notichat-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.2.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.4",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1"
+  }
+}
