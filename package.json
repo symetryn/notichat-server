@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/symetryn/notichat-server#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase-admin": "^8.2.0",
     "mongodb": "^3.2.7",
     "mongoose": "^5.6.4",
